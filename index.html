@@ -6,23 +6,41 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Glegoo&display=swap" rel="stylesheet">
   <title>CCDN DATA VISUALISATION</title>
 </head>
 <body>
-  <div id="selector-Container">
-  <select id="selector" onchange="location.reload()">
-      <option value="watch.months" selected="selected">Watch history: Months</option>
-       <option value="watch.time">Watch history: Time</option>
-       <option value="watch.dow">Watch history: Day of week</option>
-         <option value="search.months">Search history: Months</option>
-          <option value="search.time">Search history: Time</option>
-          <option value="search.dow">Search history: Day of week</option>
+  <div class="header">
+  <h1>David Kim's YouTube Data Visualisation</h1>
+  </div>
+<div class="container" id="container">
+  <canvas id="myChart" class="myChart"></canvas>
+</div>
+<div class="selector-Wrapper">
+  <div class="selectorz1">
+    <h3>Graph type</h3>
+    <select class = "actualS1" id="selector2" onchange="location.reload()">
+      <option value="line" selected="selected">Line</option>
+      <option value="bar">Bar</option>
+      <option value="radar">Radar</option>
+      <option value="doughnut">Doughnut</option>
+      <option value="polarArea">Polar Area</option>
     </select>
     </div>
-  <div class="container">
-    <canvas id="myChart"></canvas>
-  </div>
+      <div class="selectorz2">
+      <h3>Data type</h3>
+      <select class = "actualS2"   id="selector" onchange="location.reload()">
+        <option value="watch.months" selected="selected">Watch History by Month</option>
+        <option value="watch.time">Watch History by Hour of Day</option>
+        <option value="watch.dow">Watch History by Day of Week</option>
+        <option value="search.months">Search History by Month</option>
+        <option value="search.time">Search History by Hour of Day</option>
+        <option value="search.dow">Search History by Day of Week</option>
+      </select>
+      </div>
+    </div>
+    </div>
   <script src="script.js"></script>
 </body>
 </html>
