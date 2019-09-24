@@ -1,6 +1,12 @@
+
+:root {
+  --widthvalue: 1500px;
+}
 body{
-  font-family: Overpass Mono;
+  font-family: Baloo;
   font-weight: bolder;
+  color: rgb(199,32,39);
+  background-color: rgba(255,201,7,1);
 }
 h3{
   font-weight: 800;
@@ -12,6 +18,7 @@ h1{
 .header{
   padding:10px;
   text-align: center;  text-transform: uppercase;
+    font-family: Bowlby One;
 }
   .selector-Wrapper{
   width:100%;
@@ -42,23 +49,27 @@ left: 50%;
 }
 .actualS1{
   padding:10px;
-  font-family: Overpass Mono;
+  font-family: Baloo;
   font-size: 15px;
   font-weight: bold;
+  background-color: rgba(255,118,14,0.7);
 }
 .actualS2{
   padding:10px;
-  font-family: Overpass Mono;
+  font-family: Baloo;
   font-size: 15px;
   font-weight: bold;
+  background-color: rgba(255,118,14,0.7);
 }
 
 .container{
+width:70vw;
   padding-top: 140px;
-height:50vh;
+  max-width: var(--widthvalue);
+  padding-bottom: 140px;
 }
-
   .myChart{
+    max-height: var(--widthvalue);
   }
   @media only screen and (max-width: 1400px) {
     h1{
