@@ -1,9 +1,95 @@
-#selector-Container{
+body{
+  font-family: Glegoo;
+}
+h3{
+  font-weight: 800;
+}
+h1{
+
+    font-weight: 800;
+}
+.header{
+  padding:10px;
+  text-align: center;
+}
+  .selector-Wrapper{
+  width:100%;
+  }
+.selector-Container{
 padding:50px;
+padding-bottom: 0px;
+padding-top: 0px;
+z-index: 3;
+top:0;
 position: absolute;
 }
-#selector{
-  font-size: 20px;
-font-style: italic;
-font-family: Helvetica;
+.selectorz1{
+position: absolute;
+top: 77px;
+left: 16px;
+padding:10px;
+text-align: center;
+right: 50%;
 }
+
+.selectorz2{
+position: absolute;
+top: 77px;
+right: 16px;
+padding:10px;
+text-align: center;
+left: 50%;
+}
+.actualS1{
+  padding:10px;
+}
+.actualS2{
+  padding:10px;
+}
+
+.container{
+  padding-top: 100px;
+width:50%;
+height:50%;
+}
+
+  .myChart{
+  }
+  @media only screen and (max-width: 1400px) {
+    h1{
+    font-size: 30px;
+    }
+    h3{
+      font-size: 15px;
+    }
+.selectorz1{
+  padding:2px;
+  padding-bottom: 100px;
+  height:10%;
+  font-size: 11px;
+  right: 50%;
+}
+.selectorz2{
+padding:2px;
+padding-bottom: 100px;
+height:10%;
+font-size: 11px;
+left: 50%;
+}
+.actualS1{
+  padding: 0px;
+  right: 50%;
+}
+.actualS2{
+  padding: 0px;
+  left: 50%;
+}
+  }
+  @media only screen and (max-width: 700px) {
+
+    h1{
+    font-size: 20px;
+    }
+
+
+  }
