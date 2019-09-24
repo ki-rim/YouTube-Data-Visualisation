@@ -1,5 +1,12 @@
+
+:root {
+  --widthvalue: 1500px;
+}
 body{
-  font-family: Glegoo;
+  font-family: Baloo;
+  font-weight: bolder;
+  color: rgb(199,32,39);
+  background-color: rgba(255,201,7,1);
 }
 h3{
   font-weight: 800;
@@ -10,14 +17,14 @@ h1{
 }
 .header{
   padding:10px;
-  text-align: center;
+  text-align: center;  text-transform: uppercase;
+    font-family: Bowlby One;
 }
   .selector-Wrapper{
   width:100%;
   }
 .selector-Container{
 padding:50px;
-padding-bottom: 0px;
 padding-top: 0px;
 z-index: 3;
 top:0;
@@ -42,22 +49,31 @@ left: 50%;
 }
 .actualS1{
   padding:10px;
+  font-family: Baloo;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgba(255,118,14,0.7);
 }
 .actualS2{
   padding:10px;
+  font-family: Baloo;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgba(255,118,14,0.7);
 }
 
 .container{
-  padding-top: 100px;
-width:50%;
-height:50%;
+width:70vw;
+  padding-top: 140px;
+  max-width: var(--widthvalue);
+  padding-bottom: 140px;
 }
-
   .myChart{
+    max-height: var(--widthvalue);
   }
   @media only screen and (max-width: 1400px) {
     h1{
-    font-size: 30px;
+    font-size: 25px;
     }
     h3{
       font-size: 15px;
@@ -88,7 +104,7 @@ left: 50%;
   @media only screen and (max-width: 700px) {
 
     h1{
-    font-size: 20px;
+    font-size: 18px;
     }
 
 
