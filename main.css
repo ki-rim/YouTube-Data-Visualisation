@@ -1,5 +1,6 @@
 body{
-  font-family: Glegoo;
+  font-family: Overpass Mono;
+  font-weight: bolder;
 }
 h3{
   font-weight: 800;
@@ -10,14 +11,13 @@ h1{
 }
 .header{
   padding:10px;
-  text-align: center;
+  text-align: center;  text-transform: uppercase;
 }
   .selector-Wrapper{
   width:100%;
   }
 .selector-Container{
 padding:50px;
-padding-bottom: 0px;
 padding-top: 0px;
 z-index: 3;
 top:0;
@@ -42,22 +42,27 @@ left: 50%;
 }
 .actualS1{
   padding:10px;
+  font-family: Overpass Mono;
+  font-size: 15px;
+  font-weight: bold;
 }
 .actualS2{
   padding:10px;
+  font-family: Overpass Mono;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .container{
-  padding-top: 100px;
-width:50%;
-height:50%;
+  padding-top: 140px;
+height:50vh;
 }
 
   .myChart{
   }
   @media only screen and (max-width: 1400px) {
     h1{
-    font-size: 30px;
+    font-size: 25px;
     }
     h3{
       font-size: 15px;
@@ -88,7 +93,7 @@ left: 50%;
   @media only screen and (max-width: 700px) {
 
     h1{
-    font-size: 20px;
+    font-size: 18px;
     }
 
 

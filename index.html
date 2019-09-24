@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Glegoo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap" rel="stylesheet"> 
   <title>CCDN DATA VISUALISATION</title>
 </head>
 <body>
@@ -15,6 +18,7 @@
   <h1>David Kim's YouTube Data Visualisation</h1>
   </div>
 <div class="container" id="container">
+  <div id="wrapper" style="position: relative; height: 50vh">
   <canvas id="myChart" class="myChart"></canvas>
 </div>
 <div class="selector-Wrapper">
@@ -29,7 +33,7 @@
     </select>
     </div>
       <div class="selectorz2">
-      <h3>Data type</h3>
+      <h3>Dataset</h3>
       <select class = "actualS2"   id="selector" onchange="location.reload()">
         <option value="watch.months" selected="selected">Watch History by Month</option>
         <option value="watch.time">Watch History by Hour of Day</option>
