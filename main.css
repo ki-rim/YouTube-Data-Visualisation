@@ -6,7 +6,7 @@ body{
   font-family: Baloo;
   font-weight: bolder;
   color: rgb(199,32,39);
-  background-color: rgba(255,201,7,1);
+  background-color: rgba(255,201,7,0);
 }
 h3{
   font-weight: 800;
@@ -52,14 +52,14 @@ left: 50%;
   font-family: Baloo;
   font-size: 15px;
   font-weight: bold;
-  background-color: rgba(255,118,14,0.7);
+  background-color: rgba(255,118,14,0);
 }
 .actualS2{
   padding:10px;
   font-family: Baloo;
   font-size: 15px;
   font-weight: bold;
-  background-color: rgba(255,118,14,0.7);
+  background-color: rgba(255,118,14,0);
 }
 
 .container{
