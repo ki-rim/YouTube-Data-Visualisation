@@ -131,7 +131,7 @@ var values = [];
 for(var i =0;i<json.watch.months.length;i++){
   values.push(json.watch.months[i].value);
 }
-Chart.defaults.global.defaultFontColor = 'rgba(199,32,39,0.7)';
+Chart.defaults.global.defaultFontColor = 'rgba(116,10,22, 0.7)';
 Chart.defaults.global.defaultFontSize = 20;
 Chart.defaults.global.defaultFontFamily = 'Baloo';
 Chart.defaults.global.defaultColor = 'rgba(199,32,39,0.7)';
@@ -146,36 +146,36 @@ let dataChart = new Chart(myChart,{
       data:values,
       //backgroundColor:'green',rgb(29,15,40)
       backgroundColor:[
-        'rgba(170,76,38,0.7)',
-        'rgba(202,166,56, 0.7)',
-        'rgba(46,120,147, 0.7)',
-        'rgba(186,79,35, 0.7)',
-        'rgba(116,10,22, 0.7)',
-        'rgba(170,76,38,0.7)',
-        'rgba(202,166,56, 0.7)',
-        'rgba(46,120,147, 0.7)',
-        'rgba(186,79,35, 0.7)',
-        'rgba(116,10,22, 0.7)',
-        'rgba(170,76,38,0.7)',
-        'rgba(202,166,56, 0.7)',
-        'rgba(46,120,147, 0.7)',
-        'rgba(186,79,35, 0.7)',
-        'rgba(116,10,22, 0.7)',
-        'rgba(170,76,38,0.7)',
-        'rgba(202,166,56, 0.7)',
-        'rgba(46,120,147, 0.7)',
-        'rgba(186,79,35, 0.7)',
-        'rgba(116,10,22, 0.7)',
-        'rgba(170,76,38,0.7)',
-        'rgba(202,166,56, 0.7)',
-        'rgba(46,120,147, 0.7)',
-        'rgba(186,79,35, 0.7)',
-        'rgba(116,10,22, 0.7)',
-        'rgba(170,76,38,0.7)',
-        'rgba(202,166,56, 0.7)',
-        'rgba(46,120,147, 0.7)',
-        'rgba(186,79,35, 0.7)',
-        'rgba(116,10,22, 0.7)'
+        'rgba(170,76,38,0.9)',
+        'rgba(202,166,56, 0.9)',
+        'rgba(46,120,147, 0.9)',
+        'rgba(186,79,35, 0.9)',
+        'rgba(116,10,22, 0.9)',
+        'rgba(170,76,38,0.9)',
+        'rgba(202,166,56, 0.9)',
+        'rgba(46,120,147, 0.9)',
+        'rgba(186,79,35, 0.9)',
+        'rgba(116,10,22, 0.9)',
+        'rgba(170,76,38,0.9)',
+        'rgba(202,166,56, 0.9)',
+        'rgba(46,120,147, 0.9)',
+        'rgba(186,79,35, 0.9)',
+        'rgba(116,10,22, 0.9)',
+        'rgba(170,76,38,0.9)',
+        'rgba(202,166,56, 0.9)',
+        'rgba(46,120,147, 0.9)',
+        'rgba(186,79,35, 0.9)',
+        'rgba(116,10,22, 0.9)',
+        'rgba(170,76,38,0.9)',
+        'rgba(202,166,56, 0.9)',
+        'rgba(46,120,147, 0.9)',
+        'rgba(186,79,35, 0.9)',
+        'rgba(116,10,22, 0.9)',
+        'rgba(170,76,38,0.9)',
+        'rgba(202,166,56, 0.9)',
+        'rgba(46,120,147, 0.9)',
+        'rgba(186,79,35, 0.9)',
+        'rgba(116,10,22, 0.9)'
       ],
       borderWidth:3,
       borderColor:[
